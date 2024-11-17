@@ -1,0 +1,24 @@
+meta {
+  name: update-borrow
+  type: http
+  seq: 9
+}
+
+put {
+  url: http://localhost:3000/borrows/9
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userId" : 2,
+    "bookId" : 1,
+    "borrow_date" : "2024-11-11",
+    "return_date" : "2024-11-13"
+  
+    
+    
+    
+  }
+}

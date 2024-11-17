@@ -1,0 +1,17 @@
+meta {
+  name: mod-categorie
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:3000/category/23
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name" : "crime"
+  }
+}

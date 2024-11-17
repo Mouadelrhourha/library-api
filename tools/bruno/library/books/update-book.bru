@@ -1,0 +1,21 @@
+meta {
+  name: update-book
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3000/books/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title" : "test",
+    "publishedYear" : 1990 , 
+      "category" : "crime"
+    
+    
+  }
+}

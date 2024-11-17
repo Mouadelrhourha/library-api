@@ -1,0 +1,17 @@
+meta {
+  name: post-categorie
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/category/
+  body: json
+  auth: none
+}
+
+body:json {
+  { 
+    "name" : "crime"
+  }
+}

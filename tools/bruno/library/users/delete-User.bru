@@ -1,0 +1,19 @@
+meta {
+  name: delete-User
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:3000/users/5
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "najm",
+      "email": "najm@gmail.com",
+      "joined_date": "2024-10-09"
+    }
+}

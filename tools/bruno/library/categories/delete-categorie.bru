@@ -1,0 +1,17 @@
+meta {
+  name: delete-categorie
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:3000/category/23
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name" : "crime"
+  }
+}
